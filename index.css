@@ -1,0 +1,101 @@
+html {
+    background-color:#2b2b2b;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+header {
+    margin: 15px;
+    background-color: #222120;
+    color: #CBAA72;
+    text-align: center;
+}
+#fotoLogo{
+  display: block;
+  margin: auto;
+}
+.nav-bar {
+    list-style: none;
+    background-color: #DAB88B;
+    text-align: left;
+}
+
+.nav-bar :hover{
+    color: #2b2b2b;
+}
+  
+.nav-bar li {
+    display: inline-block;
+    margin: 5px;
+}
+  
+.nav-bar a {
+    text-decoration: none;
+    color: #FDF6EC;
+}
+p{
+    color: #dbc8ae;
+}
+
+* {box-sizing:border-box}
+
+.containerCarrousel {
+  max-width: 1209px;
+  position: relative;
+  margin: auto;
+}
+
+.foto {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.texto {
+  color: #FDF6EC;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numeroTexto {
+  color: #FDF6EC;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+.transicion {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}

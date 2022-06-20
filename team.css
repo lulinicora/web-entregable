@@ -1,0 +1,145 @@
+html {
+    background-color:#2b2b2b;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+header {
+    margin: 15px;
+    background-color: #222120;
+    color: #f5f1ea;
+    text-align: center;
+}
+  
+.nav-bar {
+    list-style: none;
+    background-color: #DAB88B;
+    text-align: left;
+}
+.nav-bar :hover{
+    color: #2b2b2b;
+}
+  
+.nav-bar li {
+    display: inline-block;
+    margin: 5px;
+}
+  
+.nav-bar a {
+    text-decoration: none;
+    color: #FDF6EC;
+}
+.headContainer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.top{
+    width: 100%;
+    background-color: #FDF6EC;
+    padding: 15px;
+    margin: 15px;
+    color: #222120
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+}
+  
+.caja {
+    width: 90%;
+    background-color: #FDF6EC;
+    padding: 15px;
+    margin: 15px;
+}
+ 
+#team1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+#team2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}  
+
+#team3 {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#fotos{
+    display: block;
+  margin: auto;
+  width: 100%;
+}
+p{
+    font-size: 18px;
+}
+h2{
+    text-decoration-line: underline;
+}
+header p{ 
+    color: #FDF6EC;
+    background-repeat: no-repeat;
+}
+#team1{
+    position: relative;
+    width: 100%;
+    max-width: 400px;    
+}
+#team2{
+    position: relative;
+    width: 100%;
+    max-width: 400px;    
+}
+#team3{
+    position: relative;
+    width: 100%;
+    max-width: 400px;    
+}
+.fotos{
+    width: 100%;
+    height: auto;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: #2b2b2b;
+}
+#team1:hover .overlay {
+    opacity: 1;
+}
+#team2:hover .overlay {
+    opacity: 1;
+}
+#team3:hover .overlay {
+    opacity: 1;
+}
+.icono {
+    color: #FDF6EC;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.fa-brands:hover {
+    color: #DAB88B;
+}
