@@ -1,142 +1,239 @@
 html {
-    background-color:#2b2b2b;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color:#2b2b2b;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
   
 header {
-    margin: 15px;
-    background-color: #222120;
-    color: #f5f1ea;
-    text-align: center;
+  margin: 15px;
+  background-color: #222120;
+  color: #f5f1ea;
+  text-align: center;
 }
   
 .nav-bar {
-    list-style: none;
-    background-color: #DAB88B;
-    text-align: left;
+  list-style: none;
+  background-color: #DAB88B;
+  text-align: left;
 }
 .nav-bar :hover{
-    color: #2b2b2b;
+  color: #2b2b2b;
 }
   
 .nav-bar li {
-    display: inline-block;
-    margin: 5px;
+  display: inline-block;
+  margin: 5px;
 }
   
 .nav-bar a {
-    text-decoration: none;
-    color: #FDF6EC;
+  text-decoration: none;
+  color: #FDF6EC;
 }
 .headContainer {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
 }
 .top{
-    width: 100%;
-    background-color: #FDF6EC;
-    padding: 15px;
-    margin: 15px;
-    color: #222120
+  width: 100%;
+  background-color: #FDF6EC;
+  padding: 15px;
+  margin: 15px;
+  color: #222120
 }
 
 .mainContainer {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
   
 .caja {
-    width: 90%;
-    background-color: #FDF6EC;
-    padding: 15px;
-    margin: 15px;
+  width: 90%;
+  background-color: #FDF6EC;
+  padding: 15px;
+  margin: 15px;
 }
  
 #team1 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
   
 #team2 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }  
 
 #team3 {
-    width: 100%;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
     
 }
 
 #fotos{
-    display: block;
+  display: block;
   margin: auto;
   width: 100%;
 }
-p{
-    font-size: 18px;
+h3{
+    font-size: 23px;
 }
 h2{
-    text-decoration-line: underline;
+  font-size: 18px;
+}
+#formacion{
+  font-size: 14px;
+  color: #DAB88B;
 }
 header p{ 
-    color: #FDF6EC;
-    background-repeat: no-repeat;
+  color: #FDF6EC;
+  background-repeat: no-repeat;
 }
 #team1{
-    position: relative;
-    width: 100%;    
+  position: relative;
+  width: 100%;    
 }
 #team2{
-    position: relative;
-    width: 100%;  
+  position: relative;
+  width: 100%;  
 }
 #team3{
     position: relative;
     width: 100%;  
 }
 .fotos{
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .3s ease;
-    background-color: #2b2b2b;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #2b2b2b;
 }
 #team1:hover .overlay {
-    opacity: 1;
+  opacity: 1;
 }
 #team2:hover .overlay {
-    opacity: 1;
+  opacity: 1;
 }
 #team3:hover .overlay {
-    opacity: 1;
+  opacity: 1;
 }
 .icono {
-    color: #FDF6EC;
-    font-size: 100px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
+  color: #FDF6EC;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 .fa-brands:hover {
     color: #DAB88B;
+}
+
+.footer{
+  background: #363636;
+  width: 98%;
+  text-align: left;
+  padding: 0 0 40px;
+  margin-top: 50px;
+  margin-left: 15px;
+  overflow: hidden;
+}
+
+.footer-izquierda{
+  float: left;
+  margin: 20px;
+}
+
+.footer-links{
+  color:  #FDF6EC;
+  margin: 0 0 10px;
+  padding: 0;
+}
+.footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+}
+.footer-nombre-empresa{
+  color:  #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+.footer-iconos{
+  margin-top: 40px;
+}
+.footer-iconos a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #FDF6EC;
+  text-align: center;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+.footer-derecha{
+  float: right;
+  margin: 20px;
+}
+.footer-derecha p{
+  display: inline-block;
+  vertical-align: top;
+  margin: 15px 42px 0 0;
+  color: #DAB88B;
+}
+.footer form{
+  display: inline-block;
+}
+.footer form input{
+  display: block;
+  background-color: #2b2b2b;
+  border: none;
+  font-size: 14px;
+  color:  #dbc8ae;
+  width: 300px;
+  padding: 18px;
+  height: 55px;
+  margin-bottom: 15px;
+}
+
+.footer form textarea{
+  display: block;
+  background-color: #2b2b2b;
+  border: none;
+  font-size: 14px;
+  color:  #dbc8ae;
+  width: 300px;
+  padding: 18px;
+  height: 100px;
+  margin-bottom: 15px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.footer form button{
+  background-color:  #2b2b2b;
+  color: #dbc8ae;
+  border: none;
+  padding: 15px 50px;
+  font-weight: bold;
+  float: right;
 }

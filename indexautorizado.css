@@ -2,6 +2,7 @@ html {
     background-color:#2b2b2b;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
   
 header {
     margin: 15px;
@@ -38,6 +39,7 @@ p{
 .main-container{
   display: flex;
   flex-direction: row;
+  position: relative;
 }
 
 * {box-sizing:border-box}
@@ -45,7 +47,7 @@ p{
 .container-carrousel {
   position: relative;
   margin: 15px;
-  width: 100%;
+  max-width: 100%;
 }
 
 .foto {
@@ -104,11 +106,138 @@ p{
   to {opacity: 1}
 }
 .texto4 {
-  color: #DAB88B;
+  color: #2b2b2b;
   font-size: 25px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+.filas {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+}
+.segundo-container {
+  margin: 10px;
+  margin-bottom: 60px;
+}
+.segundo-container:after{
+  display: table;
+  clear: both;
+  position: relative;
+}
+.tarjeta {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  text-align: absolute;
+  background-color: rgb(54, 54, 54);
+  color: #FDF6EC;
+  text-align: center;
+  cursor: pointer;
+}
+.tarjeta:hover{
+  transform: scale(1.02);
+}
+h4{
+  color: #dbc8ae;
+  font-size: 20px;
+}
+i{
+  font-size: 40px;
+  margin-top: 15px;
+}
+.footer{
+	background: #363636;
+	width: 100%;
+	text-align: left;
+  padding: 50px 60px 40px;
+  margin-top: 100px;
+	overflow: hidden;
+}
+
+.footer-izquierda{
+  float: left;
+}
+
+.footer-links{
+  color:  #FDF6EC;
+	margin: 0 0 10px;
+	padding: 0;
+}
+.footer-links a{
+  display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+.footer-nombre-empresa{
+  color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+.footer-iconos{
+  margin-top: 40px;
+}
+.footer-iconos a{
+  display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	font-size: 20px;
+	color: #FDF6EC;
+	text-align: center;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+.footer-derecha{
+  float: right;
+}
+.footer-derecha p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #DAB88B;
+}
+.footer form{
+	display: inline-block;
+}
+.footer form input{
+  display: block;
+	background-color: #2b2b2b;
+	border: none;
+	font-size: 14px;
+	color:  #dbc8ae;
+	width: 300px;
+	padding: 18px;
+  height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer form textarea{
+  display: block;
+	background-color: #2b2b2b;
+	border: none;
+	font-size: 14px;
+	color:  #dbc8ae;
+	width: 300px;
+	padding: 18px;
+  height: 100px;
+	margin-bottom: 15px;
+	height: 100px;
+	margin-bottom: 20px;
+}
+.footer form button{
+	background-color:  #2b2b2b;
+	color: #dbc8ae;
+	border: none;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
 }

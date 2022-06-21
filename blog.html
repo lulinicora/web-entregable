@@ -10,12 +10,13 @@
   <header>
     <br>
     <a href="./indexautorizado.html">
-      <img src="./imagenes/pixlr-bg-result.png" alt="Logo" width="5%" id="fotoLogo">
+      <img src="./imagenes/logo.png" alt="Logo" width="5%" id="fotoLogo">
     </a>
     <ul class="nav-bar">
       <li><a href="./indexautorizado.html">Home</a></li>
       <li><a href="team.html">Team</a></li>
       <li><a href="blog.html">Acerca De</a></li>
+      <li><a href="./tragos.html">Tragos</a></li>
       <li><a href="./shop.html">Shop</a></li>
     </ul>
   </header>
@@ -80,21 +81,64 @@
         <div class="cajas">
           <h1>Vodka</h1>
           <h3>Pureza</h3>
-          <img src="" alt="" width="40%"/>
-          <img src="" alt="" width="40%"/>
-          <img src="" alt="" />
+          <p>La palabra vodka tiene origen en la expresión rusa zhiznennia voda, que significa “agua de vida”, pero que con el paso del tiempo se transformó hasta llegar a ser sólo wódka, que significa “agüita”. El espirituoso fue nombrado de esta forma debido a su pureza, al ser una bebida incolora y carente de sabor, pero con potencia y cualidades únicas.</p>
+          <span id="algo"></span>
+          <p><span id="algo-mas">
+            <img src="./imagenes/Trago13.png" alt="" width="49%" class="imagen-vodka">
+            <img src="./imagenes/Trago23.png" alt="" width="49%"class="imagen-vodka">
+          </span></p>
+          <button onclick="mostrarMas()" id="boton-plegable">Mas Información</button>
+
         </div>
         <div class="cajas">
           <h1>Ron</h1>
           <h3>Dulzor</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-            dolores eveniet recusandae accusamus corrupti nesciunt? Possimus
-            tempora saepe, vero consectetur quaerat obcaecati? Saepe quod dolor
-            officia sint sunt. Officiis, veritatis.
+          <span id="nada"></span>
+          <p><span id="complemento">
+            El ron es una bebida alcohólica, elaborada a partir de la fermentación y destilación de la melaza o el jugo de la caña de azúcar. La mayoría de su producción se encuentra en las Américas, y concretamente el Caribe, aunque también se da en otros países como las Filipinas o la India.
+            <br>
+            <img src="./imagenes/barriles.jpg" alt="" width="100%" class="foto-barril">
+          </span></p>
+          <button onclick="verMas()" id="boton-ron">Mas Información</button>
         </div>
       </div>
     </div>
   </body>
+
+  <footer class="footer">
+    <div class="footer-izquierda">
+      <img src="./imagenes/logo.png" alt="" width="50%" >
+      <p class="footer-links">
+        <a href="./indexautorizado.css">Home</a>
+        .
+        <a href="./team.html">Team</a>
+        .
+        <a href="./blog.html">Acerca De</a>
+        .
+        <a href="./tragos.html">Tragos</a>
+        .
+        <a href="./shop.html">Shop</a>
+      </p>
+      <p class="footer-nombre-empresa">Lounge © 2022</p>
+      <div class="footer-iconos">
+        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-square"></i></a>
+        <a href="https://www.facebook.com"><i class="fa-brands fa-twitter-square"></i></a>
+        <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/lulinicora/web-entregable.git"><i class="fa-brands fa-github-square"></i></a>
+      </div>
+    </div>
+    <div class="footer-derecha" >
+      <p>Contactese con Nosotros</p>
+      <form action="#" method="post">
+        <input type="text" name="email" placeholder="Email">
+        <textarea name="message" placeholder="Message"></textarea>
+        <button>Enviar</button>
+      </form>
+  
+  
+    </div>
+  
+  </footer>
+
   <script src="./blog.js"></script>
 </html>

@@ -114,7 +114,6 @@ p{
 }
 
 
-
 body {
   font-size: 16px;
 }
@@ -183,4 +182,23 @@ p {
   width: 118px;
   text-decoration: none;
   background-color: #b49873;
+}
+.redireccion-legal input {
+  margin: 0 7px;
+  width: 128px;
+}
+.redireccion-legal input:hover {
+  background-color: #DAB88B;
+}
+.redireccion-legal input {
+  display: inline-block;
+  margin: 0 5px;
+  color: #FDF6EC;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 40px;
+  width: 118px;
+  text-decoration: none;
+  background-color: #b49873;
+  border: none;
 }
