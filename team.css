@@ -92,18 +92,15 @@ header p{
 }
 #team1{
     position: relative;
-    width: 100%;
-    max-width: 400px;    
+    width: 100%;    
 }
 #team2{
     position: relative;
-    width: 100%;
-    max-width: 400px;    
+    width: 100%;  
 }
 #team3{
     position: relative;
-    width: 100%;
-    max-width: 400px;    
+    width: 100%;  
 }
 .fotos{
     width: 100%;
