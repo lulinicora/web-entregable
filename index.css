@@ -35,13 +35,17 @@ header {
 p{
     color: #dbc8ae;
 }
+.main-container{
+  display: flex;
+  flex-direction: row;
+}
 
 * {box-sizing:border-box}
 
-.containerCarrousel {
-  max-width: 1209px;
+.container-carrousel {
   position: relative;
-  margin: auto;
+  margin: 15px;
+  width: 100%;
 }
 
 .foto {
@@ -71,7 +75,7 @@ p{
 }
 .texto {
   color: #FDF6EC;
-  font-size: 25px;
+  font-size: 23px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -98,4 +102,85 @@ p{
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+.texto4 {
+  color: #DAB88B;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+body {
+  font-size: 16px;
+}
+.legal-edad {
+  color: #fff;
+  text-align: center;
+}
+.legal-edad{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  width: 100%;
+  height: 100%;
+  padding: 20px 0;
+  color: #fff;
+  background: rgba(0,0,0,.9);
+  text-align: center;
+}
+.contenedor-legal{
+  padding-top: 120px;
+  width: 550px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.titulo-legal{
+  font-weight: 300;
+  font-size: 30px;
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+  color: #DAB88B;
+  background: linear-gradient(#DAB88B, #DAB88B);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 105px 1px;
+}
+.texto-legal {
+  font-size: 80%;
+  margin: 0 0 20px 0;
+  color: #FDF6EC;
+}
+.consulta-legal {
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0 0 10px 0;
+  color: #DAB88B;
+}
+p {
+  display: block;
+}
+.redireccion-legal a {
+  margin: 0 7px;
+  width: 128px;
+}
+.redireccion-legal a:hover {
+  background-color: #DAB88B;
+}
+.redireccion-legal a {
+  display: inline-block;
+  margin: 0 5px;
+  color: #FDF6EC;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 44px;
+  width: 118px;
+  text-decoration: none;
+  background-color: #b49873;
 }

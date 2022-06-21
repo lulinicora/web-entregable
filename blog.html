@@ -4,40 +4,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog</title>
+    <title>Acerca De</title>
     <link rel="stylesheet" href="./blog.css" />
   </head>
   <header>
     <br>
-    <img src="./imagenes/pixlr-bg-result.png" alt="Logo" width="5%" id="fotoLogo">
+    <a href="./indexautorizado.html">
+      <img src="./imagenes/pixlr-bg-result.png" alt="Logo" width="5%" id="fotoLogo">
+    </a>
     <ul class="nav-bar">
-      <li><a href="index.html">Home</a></li>
+      <li><a href="./indexautorizado.html">Home</a></li>
       <li><a href="team.html">Team</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="FAQ">Shop</a></li>
+      <li><a href="blog.html">Acerca De</a></li>
+      <li><a href="./shop.html">Shop</a></li>
     </ul>
   </header>
   <body>
-    <div class="preContainer">
-      <div class="top">
-        <div id="lugar1">
-          
-        </div>
-      </div>
-    </div>
+
     <div class="main-container">
       <div class="caja-principal">
         <div class="cajas">
-          <div>
+          <div >
             <h1>Vinos</h1>
             <h3>Color</h3>
-            <img src="imagenes/Wine.jpg" alt="La foto no existe" width="50%" id="imagenes">
-            <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-            dolores eveniet recusandae accusamus corrupti nesciunt? Possimus
-            tempora saepe, vero consectetur quaerat obcaecati? Saepe quod dolor
-            officia sint sunt. Officiis, veritatis.
-            </p>
+            <div class="contenedor-caja-vino">
+              <img src="imagenes/Wine.jpg" alt="La foto no existe" width="100%"  id="imagen-vino">
+              <div class="overlay">
+                <div id="texto-vino">
+                  <p>
+                    El color del vino depende de muchos factores, uno de ellos es la cantidad de pigmento que tenga la uva. A las moléculas que dan los tonos se les conoce como antocianos.
+                    <br>
+                    <br>
+                    Otro factor importante a tomar en cuenta es el clima en el que se cosecharon las uvas; en regiones frías hay menos color y cuando es más cálido, la uva desprende más colorantes. Recuerda que un vino cambia de color también por la edad.  
+                  </p>
+                  <p id="sub-titulo">Tinto</p>
+                  <p>Los vinos tintos son, sin duda, los más cargados de color, tanto en capa como en intensidad.</p>
+                  <p>Si nos enfocamos en los diferentes tipos de uva encontraremos que los vinos llegan a obtener colores más intensos por su capacidad de coloración como los Garnacha Tintorera, el Cabernet Sauvignon, Tempranillo o Syrah.</p>
+                  <p id="sub-titulo">Blanco</p>
+                  <p>La colorimetría de este tipo de vino depende mucho más del clima, la elaboración, la variedad de uva y de la crianza.</p>
+                  <p>La coloración del vino blanco viene en su mayoría de las uvas que no tienen pigmentos rojos en la piel.</p>
+                  <p id="sub-titulo">Rosado</p>
+                  <p>La evolución en los vinos rosados es más rápida que los tintos; la cantidad de antocianos que contienen es mucho menor por lo que el vino se ve afectado por su oxidación. Las uvas que suelen ocuparse para la elaboración de este son Cariñena, Tempranillo, Pinot Noir, Cabernet Sauvignon, Merlot entre otras. </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="cajas">
@@ -45,32 +55,38 @@
           <h3>Espumante</h3>
           <img src="imagenes/champagne.jpg" alt="La foto no existe" width="50%" id="imagenes"/>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-            dolores eveniet recusandae accusamus corrupti nesciunt? Possimus
-            tempora saepe, vero consectetur quaerat obcaecati? Saepe quod dolor
-            officia sint sunt. Officiis, veritatis.
+            Los vinos de Champagne son vinos que combinan efervescencia y espuma. El control de estos dos fenómenos supone un conocimiento científico que ha apasionado a los productore de Champagne y actualmente se puede explicar mejor toda su complejidad.
           </p>
         </div>
       </div>
       <div class="caja-secundaria">
         <div class="cajas">
-          <h1>Whisky</h1>
-          <h3>Intensidad</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-            dolores eveniet recusandae accusamus corrupti nesciunt? Possimus
-            tempora saepe, vero consectetur quaerat obcaecati? Saepe quod dolor
-            officia sint sunt. Officiis, veritatis.
+
+          <div class="contenedor-texto-imagen">
+            <div class="contenedor-texto">
+              <h1>Whisky</h1>
+              <h3>Añejamiento</h3>
+            </div>
+            <div class="contenedor-imagen">
+              <img src="./imagenes/vianney-cahen-MJYYiC228mY-unsplash.jpg" alt="" width="100%">
+            </div>
+          </div>
+
+
+          <span id="vacio"></span>
+          <p><span id="mas">Una vez terminada la destilación, las barricas de roble se llenan y se guardan en la bodega. Tras sus pesadas puertas, el whisky madura muy lentamente hasta llegar a convertirse en un whisky profundamente escocés. Para favorecer un añejamiento armónico, la tasa de humedad y la temperatura ambiente se controlan con precisión. Durante como mínimo tres años, la serenidad que reina en las bodegas únicamente se verá turbada por el paso de las estaciones. Para alcanzar la perfección, la palabra clave es equilibrio en el interior de la bodega.</span></p>
+          <button onclick="leerMas()" id="botonInformacion">Mas Información</button>
         </div>
         <div class="cajas">
           <h1>Vodka</h1>
-          <h3>Color</h3>
-          <img src="" alt="" />
-          <img src="" alt="" />
+          <h3>Pureza</h3>
+          <img src="" alt="" width="40%"/>
+          <img src="" alt="" width="40%"/>
           <img src="" alt="" />
         </div>
         <div class="cajas">
           <h1>Ron</h1>
+          <h3>Dulzor</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
             dolores eveniet recusandae accusamus corrupti nesciunt? Possimus
@@ -80,4 +96,5 @@
       </div>
     </div>
   </body>
+  <script src="./blog.js"></script>
 </html>
